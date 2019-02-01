@@ -1,4 +1,5 @@
-var randomNumber1 = Math.floor(Math.random() *6 )+1;
+function myFunction() {
+    var randomNumber1 = Math.floor(Math.random() *6 )+1;
 
 var randomDiceImage = randomNumber1+".jpg";
  var randomImageSource = "images/"+randomDiceImage;
@@ -25,4 +26,5 @@ else if(randomNumber2 > randomNumber1) {
 }
 else {
     document.querySelector('H1').innerHTML = "Game Tie!!"
+}
 }
