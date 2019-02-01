@@ -1,0 +1,21 @@
+.container {
+    
+    margin-left: 30%;
+    margin-top: 7%;
+    
+}
+h2 {
+    font-size: 40px;
+    padding-left: 250px;
+}
+h1{
+    padding-left: 250px;
+}
+.dice {
+  
+    float: left;
+    padding-left: 150px;
+}
+p{
+    padding-left: 60px;
+}
